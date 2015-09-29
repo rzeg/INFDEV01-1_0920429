@@ -47,9 +47,9 @@ def Program():
     print(input)
 
     if(input == 13):
-        DrawHouse()
+        DrawColourfulPyramid()
 
-def DrawHouse():
+def DrawColourfulPyramid():
     for y in range(0,100):
         if(y % 2 == 1):
             change_color_to(Red)
