@@ -2,10 +2,10 @@
 finalString = ""
 
 for x in range(0,size):
-    # Man sometimes I think too hard
-    for y in range (0, x + 1):
-        finalString += "x"
-    
-    finalString += "\n"
-            
+    if(x % 2 == 0):
+        for y in range (-size, -x):
+            finalString += " "
+        for z in range (0, x + 1):
+            finalString += " x"
+        finalString += "\n"      
 print(finalString)
