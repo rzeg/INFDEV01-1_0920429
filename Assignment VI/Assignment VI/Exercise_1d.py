@@ -1,4 +1,4 @@
-﻿size = int(raw_input("Type height as an integer number: "))
+﻿size = int(raw_input("Type size as an integer number: "))
 finalString = ""
 
 for x in range(0,size):
@@ -6,6 +6,6 @@ for x in range(0,size):
         for y in range (-size, -x):
             finalString += " "
         for z in range (0, x + 1):
-            finalString += " x"
+            finalString += " *"
         finalString += "\n"      
 print(finalString)

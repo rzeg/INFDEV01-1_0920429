@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>de92d06f-6579-4651-b704-7eabc0a6427c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Exercise_1d.py</StartupFile>
+    <StartupFile>Exercise_1e.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Exercise_1a.py" />
+    <Compile Include="Exercise_1e.py" />
     <Compile Include="Exercise_1d.py" />
     <Compile Include="Exercise_1c.py" />
     <Compile Include="Exercise_1b.py" />
