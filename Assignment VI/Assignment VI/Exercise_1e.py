@@ -8,7 +8,7 @@ for y in range(0,size):
         for x in range (0, size):
             distanceX = x - center
             distanceY = y - center
-            distance = math.sqrt(distanceX * distanceX + distanceY * distanceY)
+            distance = math.sqrt(distanceX ** 2 + distanceY ** 2)
             if(distance < center):
                 finalString += "*"
             else:
