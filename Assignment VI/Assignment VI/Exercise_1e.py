@@ -2,13 +2,14 @@
 
 size = int(raw_input("Type radius as an integer number: "))
 finalString = ""
+center = size / 2
 
-for x in range(0,size):
-        for y in range (0, size):
-            distX = x - size / 2
-            distY = y - size / 2
-            dist = math.sqrt(distX * distX + distY * distY)
-            if(dist < size / 2):
+for y in range(0,size):
+        for x in range (0, size):
+            distanceX = x - center
+            distanceY = y - center
+            distance = math.sqrt(distanceX * distanceX + distanceY * distanceY)
+            if(distance < center):
                 finalString += "*"
             else:
                 finalString += " "
