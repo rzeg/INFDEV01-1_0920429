@@ -51,9 +51,9 @@ def Program():
 
 def DrawColourfulPyramid():
     for y in range(0,100):
-        if(y % 2 == 1):
+        if(y % 2 == 0):
             change_color_to(Red)
-        elif(y % 5 == 1):
+        elif(y % 5 == 0):
             change_color_to(Green)
         else:
             change_color_to(Black)
