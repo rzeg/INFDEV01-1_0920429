@@ -1,4 +1,4 @@
-textToReverse = raw_input("Put in a string to reverse ")
+﻿textToReverse = raw_input("Put in a string to reverse ")
 reversedString = ""
 
 for x in textToReverse:
